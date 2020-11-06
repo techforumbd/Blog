@@ -1,0 +1,9 @@
+---
+layout: post
+title: Why TFS is required in Software development?
+date: 2013-03-24 10:52
+author: techforumugm
+comments: true
+categories: [Team Foundation Server (TFS)]
+---
+<div class="separator" style="clear:both;text-align:center;"><a href="https://techforumugm.files.wordpress.com/2013/03/b96ca-tfs.png" style="margin-left:1em;margin-right:1em;"><img border="0" src="https://techforumugm.files.wordpress.com/2013/03/b96ca-tfs.png" /></a></div><span lang="EN"></span><br /><span lang="EN"></span><br /><span lang="EN"></span><br /><span lang="EN"><ol><span></span><li><span>TFS has tightly integrated collaboration functionalities for Development team.</span></li><li><div><span>Version controlling using state of the art technology. </span></div></li><li><div align="LEFT"><span>TFS has powerful features like atomic check-ins, branching and merging, shelving, labeling, concurrent check-outs, check-in policies, and the association of check-ins with work items.</span></div></li><li><div align="LEFT"><span>Agile and CMMI process model is available. </span></div></li><li><div align="LEFT"><span>Project Manager can be easily define task, able to establish link between existing tasks and monitor task.</span></div></li><li><div align="LEFT"><span>Queries can be organized into subfolders, and permissions can be assigned as to who can view and modify team queries.</span></div></li><li><div align="LEFT"><span>Team members can automatically, compile, Testing, Packaging, and Deployment.</span></div></li><li><div align="LEFT"><span>QC or Test team can make test plan, manage and collect test cases, test execution, and beg reports through TFS. </span></div></li><li><div align="LEFT"><span>TFS has branching and merging facilities using that parallel development can perform and managing easily.</span></div></li></ol><span></span><br /><ol><span></span></ol><span> </span></span><span></span><br />
