@@ -17,3 +17,10 @@ layout: main
 {% endfor %}
 
 {% include pagination.html %}
+<ul>      
+  {% for category in site.categories %}                           
+  {% for posts in category[1] %}                                                                                                                                     
+  <li><a class="post-link" href="{{ posts.url }}">{{ posts.title }}</a></li>                                                         
+  {% endfor %}                                                        
+  {% endfor %}
+  </ul>
