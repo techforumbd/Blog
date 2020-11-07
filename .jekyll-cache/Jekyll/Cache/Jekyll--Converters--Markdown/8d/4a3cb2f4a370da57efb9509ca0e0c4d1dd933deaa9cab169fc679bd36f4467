@@ -1,0 +1,78 @@
+I"Y
+<p>Overview, Business Intelligence (BI), SQL Server Analysis Service (SSAS), SQL Server Integration Service (SSIS), SQL Server Reporting Service (SSRS) and Azure SQL Server. Presentation contain :</p>
+
+<ol>
+  <li>
+    <p>Basic Concept of BI</p>
+  </li>
+  <li>
+    <p>Introduce Data Warehouse</p>
+  </li>
+  <li>
+    <p>Microsoft BI Technologies</p>
+  </li>
+  <li>
+    <p>Data Warehouse Design Concept</p>
+  </li>
+  <li>
+    <p>Microsoft SQL Server Analysis Service (SSAS)</p>
+  </li>
+</ol>
+
+<p>Demo Program: Step By Step: Develop ETL Process using SQL Server Integration Services (SSIS)</p>
+
+<p><a href="https://gallery.technet.microsoft.com/Design-Cube-in-SQL-Server-49ee6e1c"><span style="color:#0066cc;">https://gallery.technet.microsoft.com/Design-Cube-in-SQL-Server-49ee6e1c</span>
+</a></p>
+
+<p><img class="alignnone size-full wp-image-338" src="https://techforumugm.files.wordpress.com/2017/04/theckm5keo.jpg" alt="thECKM5KEO" width="372" height="167" /></p>
+
+<ol>
+  <li>Microsoft SQL Server Integration Service (SSIS)</li>
+</ol>
+
+<p>Demo Program: Step By Step: Develop ETL Process using SQL Server Integration Services (SSIS)</p>
+
+<p><a href="https://gallery.technet.microsoft.com/Design-Cube-in-SQL-Server-49ee6e1c"><span style="color:#0066cc;">https://gallery.technet.microsoft.com/Step-By-step-Creating-a-d0e3e71d</span></a></p>
+
+<ol>
+  <li>Microsoft SQL Server Reporting Service (SSRS)</li>
+</ol>
+
+<p>Demo Program: Step by Step SSRS Report Design Using CUBE</p>
+
+<p><a href="https://gallery.technet.microsoft.com/Step-by-Step-SSRS-Report-8de35ea8"><span style="color:#0066cc;">https://gallery.technet.microsoft.com/Step-by-Step-SSRS-Report-8de35ea8</span></a></p>
+
+<ol>
+  <li>
+    <p>Data Quality Service (DQS)</p>
+  </li>
+  <li>
+    <p>Master Data Service</p>
+  </li>
+  <li>
+    <p>Demos.</p>
+  </li>
+</ol>
+
+<p>Resource :</p>
+
+<ol>
+  <li>To know more about SQL Server 2014</li>
+</ol>
+
+<p><a href="https://www.microsoft.com/en-us/server-cloud/products/sql-server/Resources.aspx"><span style="color:#0066cc;">https://www.microsoft.com/en-us/server-cloud/products/sql-server/Resources.aspx</span></a></p>
+
+<ol>
+  <li>Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2013</li>
+</ol>
+
+<p><a href="https://www.microsoft.com/en-us/download/details.aspx?id=42313"><span style="color:#0066cc;">https://www.microsoft.com/en-us/download/details.aspx?id=42313</span></a></p>
+
+<ol>
+  <li>Adventure Works 2014 Sample Databases</li>
+</ol>
+
+<p><a href="https://msftdbprodsamples.codeplex.com/releases/view/125550"><span style="color:#0066cc;">https://msftdbprodsamples.codeplex.com/releases/view/125550</span></a></p>
+
+<p> </p>
+:ET

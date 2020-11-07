@@ -1,0 +1,17 @@
+I"�
+<div class="MsoNormal" style="margin:0 0 10pt;"><span>First we have to identify what is service platform? To run an application on cloud it needs different services to run. In the context of service Microsoft Azure different group of services they provide specific service. Cloud service platform </span></div>
+<div class="Default" style="margin:0;"><span>Windows Azure Service:</span></div>
+<div class="Default" style="margin:0;"><span>Windows Azure service provides windows based environment and storage to run windows based application and store data. Like an application which run in own premises, it require OS, database etc quite like that windows Azure service provide everything running from Microsoft Data center and have to access through internet. Application  running from Azure provide service to customer or customer’s customer as a SaaS.</span></div>
+<div class="Default" style="margin:0;"><br /><span> </span></div>
+<div class="Default" style="margin:0;"><span>Microsoft .NET Services: </span></div>
+<div class="Default" style="margin:0;"><span>Cloud-based services can be used from on-premises applications or cloud applications. Filling this gap is the goal of .NET Services. In a word it provide distributed infrastructural services to cloud and own premises application. It components are:</span></div>
+<div class="Default" style="margin:0 0 0 .5in;text-indent:-.25in;"><span>1.       Access Control</span></div>
+<div class="Default" style="margin:0 0 0 .5in;text-indent:-.25in;"><span>2.       Service Bus</span></div>
+<div class="Default" style="margin:0 0 0 .5in;text-indent:-.25in;"><span>3.       Workflow</span></div>
+<div class="Default" style="margin:0;"><br /></div>
+<div class="Default" style="margin:0;"><span>Microsoft SQL Services:</span></div>
+<div class="Default" style="margin:0;"><span>SQL Service provide option as like  SQL Server data service except few option like administration ,replication etc.</span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><span>Service does not expose a traditional relational interface. It provides a hierarchical data model that doesn’t require a pre-defined schema.Each data item stored in this service is kept as a property with its own name, type, and value. </span></div>
+<div class="Default" style="margin:0;"><span>Live Services: </span></div>
+<div class="Default" style="margin:0;"><span>Microsoft provides an expanding group of Internet applications, including the Windows Live family and others. These applications let people send instant messages, store their contact information, search, get directions, and do other useful things. The Live Framework also allows synchronizing this data across desktops and devices, finding and downloading applications, and more </span></div>
+:ET

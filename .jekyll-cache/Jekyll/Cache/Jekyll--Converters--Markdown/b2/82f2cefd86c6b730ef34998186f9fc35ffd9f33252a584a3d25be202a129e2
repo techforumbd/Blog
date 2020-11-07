@@ -1,0 +1,48 @@
+I"�	<p>It’s good to know how a MS SQL Server query is processed by SQL Server database engine.There are six steps by that a query is executed.It’ll help to get idea on few matters</p>
+<ol>
+	<li>Dirty Pages</li>
+	<li>Read SQL Server Query execution Plan</li>
+	<li>Isolation and Locking</li>
+</ol>
+<p>Following steps get idea of query execution internals :</p>
+
+<p>Step 1 : Application send modification request</p>
+
+<p>Step 2 :</p>
+
+<p>SQL Server find out the location of the pages related to modified data. In a first preference it search to the buffer and after that disk.</p>
+
+<p>Step 3 :</p>
+
+<p>Identified pages are kept into the buffer cache. This pages are called clean pages because no change has made to those yet now.</p>
+
+<p>Step 4 :</p>
+
+<p>SQL Server lock those pages and execute required modification. Now changed perform to page those are called dirty pages.</p>
+
+<p><img class="alignnone size-full wp-image-934" src="https://techforumugm.files.wordpress.com/2020/03/execution-plan.png" alt="Execution Plan" width="702" height="419" /></p>
+
+<p>Step 5 :</p>
+
+<p>Now the details log records has generated and stored into the log file (in disk) from buffer cache. It ensures that if any issues happen and the server suddenly shuts down, during database recovery, it reads the transaction log file and prepares the recovery process (UNDO, REDO).It also sends commit acknowledgment to the user. The changed page is still in the buffer cache.Using DMV <b>sys.dm_os_buffer_descriptors</b> to check the dirty pages in memory and use the column is_modified to see the dirty pages:</p>
+
+<p>SELECT db_name(database_id) AS ‘Database’,count(page_id) AS</p>
+
+<p>‘Dirty Pages’  FROM sys.dm_os_buffer_descriptors</p>
+
+<p>WHERE is_modified =1</p>
+
+<p>GROUP BY db_name(database_id)</p>
+
+<p>ORDER BY count(page_id) DESC</p>
+
+<p><img class="alignnone size-full wp-image-937" src="https://techforumugm.files.wordpress.com/2020/03/execution-plan02.png" alt="Execution Plan02" width="618" height="366" /></p>
+
+<p>Step 6 :</p>
+
+<p>A Checkpoint process writes all dirty pages (available in the buffer cache) and transaction log records to the disk. It also logs checkpoint information in the transaction log. It performs the following tasks as shown in the following image.</p>
+<ul>
+	<li>It writes the log records from the buffer cache to the disk ( transaction log file)</li>
+	<li>It writes all dirty pages ( modified pages since the last checkpoint) to the data file ( MDF/NDF)</li>
+</ul>
+:ET

@@ -1,0 +1,75 @@
+I"d.<div class="MsoNormal" style="margin:0 0 10pt;"><span style="font-family:Calibri;">Day 1 : “HelloWorld”</span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;text-align:justify;"><a href="http://www.blogger.com/null" name="Step1:-_Create_project"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">Step1:- Create project</span></a><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;text-align:justify;"><br /></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;line-height:115%;">Create a new project by selecting the MVC 2 empty web application template. Using below Navigation File &gt; New Project<span>  </span>&gt; Web </span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><br /></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><span><span style="font-family:Calibri;"></span></span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;text-align:justify;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">Step1:- Create project</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;text-align:justify;"><br /></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;line-height:115%;">Create a new project by selecting the MVC 2 empty web application template. Using below Navigation File &gt; New Project<span>  </span>&gt; Web </span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;line-height:115%;">After that look on the Solution explorer you will find controllers, models and views folder for creating model view and controller.</span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;line-height:115%;"><span> </span></span><span><span style="font-family:Calibri;"> </span></span><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;line-height:115%;"></span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><br /></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><a href="http://www.blogger.com/null" name="Step_2:-_Add_controller"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">Step 2:- Add controller</span></a><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">Let’s right click on the Controllers and add new controller named “HWController” as below:</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span></span><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">System will give you option to put the name of the controller:</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span></span><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"><br /><br /></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">Whenever you click on the new controller you will view the following line of code :</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">using</span><span style="font-family:Consolas;font-size:9.5pt;"> System;</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">using</span><span style="font-family:Consolas;font-size:9.5pt;"> System.Collections.Generic;</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">using</span><span style="font-family:Consolas;font-size:9.5pt;"> System.Linq;</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">using</span><span style="font-family:Consolas;font-size:9.5pt;"> System.Web;</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">using</span><span style="font-family:Consolas;font-size:9.5pt;"> System.Web.Mvc;</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">namespace</span><span style="font-family:Consolas;font-size:9.5pt;"> HellowWorld.Controllers</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;">{</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>    </span><span style="color:blue;">public</span> <span style="color:blue;">class</span> <span style="color:#2b91af;">HWController</span> : <span style="color:#2b91af;">Controller</span></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>    </span>{</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>        </span><span style="color:green;">//</span></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>        </span><span style="color:green;">// GET: /HW/</span></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>        </span><span style="color:blue;">public</span> <span style="color:#2b91af;">ActionResult</span> Index()</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>        </span>{</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>            </span><span style="color:blue;">return</span> View();</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>        </span>}</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;"><span>    </span>}</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:Consolas;font-size:9.5pt;">}</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><a href="http://www.blogger.com/null" name="Step_3:-_Add_View"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">Step 3:- Add View</span></a><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"><br />Now click on the VW folder of view and add new view HW view after that uncheck the master page check box</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span></span><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"><br /> </span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"><br /><br /></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">Clicking on the ok button of the view, you will see a simple ASPX page .In the HelloWorld.aspx file write “Hello World” code within body.</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><br /></div>
+<div class="MsoNormal" style="line-height:normal;margin:0 0 10pt;text-align:justify;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"><br /><br /></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;text-align:justify;"><a href="http://www.blogger.com/null" name="Step_4:-_Run_the_application"><b><span style="color:#1452e0;font-family:'Verdana', 'sans-serif';font-size:10pt;">Step 4:- Run the application</span></b></a><span></span><b><span style="color:#157edd;font-family:'Verdana', 'sans-serif';font-size:10pt;"></span></b></div>
+<div class="MsoNormal" style="line-height:normal;margin:0 0 10pt;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">Before run the application, go to global.asax.cs file change the parameter default “Home” to <span> </span></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0 0 10pt;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;">“HW” i.e.</span><span style="font-family:Consolas;font-size:9.5pt;"> controller=<span style="color:#a31515;">"<b>HW</b>"</span></span><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0;"><span style="color:blue;font-family:Consolas;font-size:9.5pt;">new</span><span style="font-family:Consolas;font-size:9.5pt;"> { controller=<span style="color:#a31515;">"<b>HW</b>"</span>,action=<span style="color:#a31515;">"Index"</span>, id =<span style="color:#2b91af;">UrlParameter</span>.Optional} <span style="color:green;">// Parameter defaults</span></span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0 0 10pt;"><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"><br /> CNTRL + F5 you will view your first application running as bellow:</span></div>
+<div class="MsoNormal" style="line-height:normal;margin:0 0 10pt;"><span></span><span style="font-family:'Verdana', 'sans-serif';font-size:10pt;"></span></div>
+<div class="MsoNormal" style="margin:0 0 10pt;"><br /></div>
+:ET
